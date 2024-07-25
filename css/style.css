@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    
+   
+}
+
+.pageDisplay img{
+    position: sticky;
+    top: 0px;
+}
+
+.top-panel img {
+    position: sticky;
+    top: 0px;
+}
+
+
+
+.photoDiv {
+    height: 249px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+}
+
+.photoDiv img {
+    height: 249px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+
+.name h1 {
+    text-align: center;
+}
+
+.title h2 {
+    text-align: right;
+}
+
+
+
+.mobileNavBar .row   {
+    padding-top: 10px;
+    
+}
+
+.buttonSpace img {
+    height: 40px;
+}
+
+.buttonSpace p {
+    font-size: smaller;
+}
+
+.buttonSpace {
+    background-color: black;
+}
+
