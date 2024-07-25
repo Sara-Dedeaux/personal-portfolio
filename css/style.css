@@ -160,6 +160,10 @@ body h2 {
     text-align: left;
 }
 
+.certifications  p{
+    margin-bottom: 60px;
+}
+
 .projects {
     text-align: center;
 }
@@ -167,6 +171,8 @@ body h2 {
 .projects h2 {
     text-align: left;
 }
+
+
 
 .contact {
     text-align: center;
@@ -215,3 +221,69 @@ body h2 {
     }
 }
 
+@media (min-width: 768px) {
+    .aboutMe h2{
+        font-size: 80px;
+    }
+
+    .aboutMe p {
+        font-size: x-large;
+    }
+
+    .codingSkills h2 {
+        font-size: 80px;
+    }
+
+    .codingSkills p {
+        font-size: x-large;
+    }
+
+    .certifications h2 {
+        font-size: 80px;
+        
+    }
+
+    .certifications p {
+        font-size: x-large;
+    }
+
+    .certifications h3 {
+        font-size: xx-large;
+    }
+
+    .projects h2 {
+        font-size: 80px;
+    }
+
+    .projects p {
+        font-size: x-large;
+    }
+
+    .projects h3 {
+        font-size: xx-large;
+    }
+
+    .contact h2 {
+        font-size: 80px;
+    }
+
+    
+}
+
+@media (min-width: 1024px) {
+    .topNav li {
+        font-size: large;
+    }
+    
+    .certifications h3 {
+        font-size: x-large;
+    }
+
+    .projects h3 {
+        font-size: x-large;
+    }
+
+    .projects p {
+        font-size: large;
+    }
+}
