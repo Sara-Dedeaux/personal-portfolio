@@ -53,6 +53,12 @@ body {
 
 .topNav li {
     display: inline;
+  
+}
+
+.topNav a {
+    text-decoration: none;
+    color: bisque;
 }
 
 .aboutMe p {
