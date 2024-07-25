@@ -1,9 +1,33 @@
 body {
-    background-color: black;
+    background-color: #030204;
+    color: #99715d;
+   
+    font-family: "Imprima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+      
     
    
 }
 
+body h1 {
+    color: blanchedalmond;
+    font-family: "Love Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+body h2 {
+    color: #c7816d;
+    
+        font-family: "Love Light", cursive;
+        font-weight: 400;
+        font-style: normal;
+    
+      
+}
 
 .top-panel img {
     position: sticky;
@@ -16,21 +40,37 @@ body {
     height: 249px;
     width: 200px;
     border-radius: 50%;
-    background-color: blanchedalmond;
+    background-color: #82933f;
 }
 
 .photoDiv img {
-    height: 249px;
-    width: 200px;
-    border-radius: 50%;
+    margin-left: 6px;
+    margin-top: 15px;
+    height: 215px;
+    border-radius: 98px;
+    border: solid,  #99715d, 2px;
+}
+
+.hero-space .photoDiv img {
+    margin-left: 6px;
+    margin-top: 15px;
+    height: 215px;
+    border-radius: 98px;
+    border: solid,  #99715d, 2px;
+}
+
+.photo-Space {
+    padding-top: 16px;
 }
 
 .name h1 {
     text-align: center;
+    font-size: xxx-large;
 }
 
 .title h2 {
-    text-align: right;
+    text-align: center;
+    font-size:xx-large;
 }
 
 
@@ -43,6 +83,15 @@ body {
 .pageDisplay .right-panel img {
     position: sticky;
     top:0px;
+}
+
+.hero-space {
+    border: solid, blanchedalmond,2px;
+    
+}
+
+.name-title {
+    text-align: center;
 }
 
 .topNav {
@@ -61,8 +110,41 @@ body {
     color: bisque;
 }
 
+
+
 .aboutMe p {
     text-align: right;
+}
+
+.aboutMe h2 {
+    padding-top: 65px;
+    padding-bottom: 32px;
+    font-size: xxx-large;
+    
+}
+
+.codingSkills h2 {
+    padding-top: 65px;
+    padding-bottom: 32px;
+    font-size: xxx-large;
+}
+
+.certifications h2 {
+    padding-top: 65px;
+    padding-bottom: 32px;
+    font-size: xxx-large;
+}
+
+.projects h2 {
+    padding-top: 65px;
+    padding-bottom: 32px;
+    font-size: xxx-large;
+}
+
+.contact h2 {
+    padding-top: 65px;
+    padding-bottom: 32px;
+    font-size: xxx-large;
 }
 
 .codingSkills p {
@@ -92,17 +174,21 @@ body {
 
 .contact h2 {
     text-align: left;
+
 }
 
 
 .pageDisplay .mobileNavBar {
     position: sticky;
     bottom: 0px;
+    color: #82933f;
 }
 
 .mobileNavBar .row   {
     padding-top: 10px;
 }
+
+
 
 .bottom-panel img {
     object-fit: cover;
