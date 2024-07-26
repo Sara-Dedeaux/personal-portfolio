@@ -73,7 +73,16 @@ body h2 {
     font-size:xx-large;
 }
 
+.pageDisplay .middle-panel .topNav{
+    position: sticky;
+    top: 0px;
+    text-align: center;
+}
 
+.topNav ul a li {
+    padding-left: 10px;
+    font-size: xx-large;
+}
 
 .pageDisplay .left-panel img {
     position: sticky;
@@ -102,6 +111,7 @@ body h2 {
 
 .topNav li {
     display: inline;
+    font-size: xx-large;
   
 }
 
@@ -164,12 +174,22 @@ body h2 {
     margin-bottom: 60px;
 }
 
+.certifications img {
+    
+    border: solid, #99715d, 7px;
+}
+
 .projects {
     text-align: center;
 }
 
 .projects h2 {
     text-align: left;
+}
+
+.projects img {
+   
+    border: solid, #99715d, 7px;
 }
 
 
@@ -183,6 +203,12 @@ body h2 {
 
 }
 
+.contact img {
+    height: 40px;
+    padding-right: 10px;
+    
+}
+
 
 .pageDisplay .mobileNavBar {
     position: sticky;
@@ -194,7 +220,9 @@ body h2 {
     padding-top: 10px;
 }
 
-
+.social-links{
+    background-color: #c7816d
+}
 
 .bottom-panel img {
     object-fit: cover;
@@ -210,6 +238,10 @@ body h2 {
 
 .buttonSpace {
     background-color: rgb(0, 0, 0, .75);
+}
+
+span {
+    font-weight: 600;
 }
 
 @media only screen 
